@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Caveat+Brush&family=DM+Serif+Text:ital@0;1&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Funnel+Display:wght@300..800&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Caveat+Brush&family=DM+Serif+Text:ital@0;1&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Funnel+Display:wght@300..800&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Offside&family=Outfit:wght@100..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -16,9 +19,7 @@ body {
     border: 10px solid rgb(191, 191, 193);
     width: 150px;
     height: 150px;
-    position: absolute;
-    top: -90px;
-    left: 90px;
+    margin-top: -100px;
 }
 
 .container_block {
@@ -26,20 +27,20 @@ body {
     background-color: rgb(191, 191, 193);
     border-radius: 10px;
     width: 350px;
+
 }
 
 .container_content {
     color: aliceblue;
-    background-color:  rgb(83, 61, 181);
     font-size: 20px;
+    font-family: "Funnel Display", sans-serif;
     text-align: center ;
-    padding: 100px 20px 30px 20px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px ;
+    padding: 20px 20px 30px 20px;
 }
     
 .container_name {
     color: rgb(0, 42, 255);
+    font-family: "Offside", sans-serif;
     text-align: center;
     font-size: 30px;
     font-weight: 700;
@@ -50,4 +51,10 @@ body {
 .container {
     margin-top: 130px;
     position: relative;
+    background-color:  rgb(83, 61, 181);
+    display: grid;
+    justify-items: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+    height: 260px;
 }
