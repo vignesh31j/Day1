@@ -13,7 +13,7 @@ body {
 
 .container_image {
     border-radius: 50%;
-    border: 10px solid rgb(196, 103, 165);
+    border: 10px solid rgb(191, 191, 193);
     width: 200px;
     height: 200px;
     position: absolute;
@@ -23,6 +23,7 @@ body {
 
 .container_block {
     box-shadow: 0px 0px 10px ;
+    background-color: rgb(191, 191, 193);
     border-radius: 10px;
     width: 500px;
     position: relative;
@@ -30,14 +31,14 @@ body {
 
 .container_content {
     color: aliceblue;
-    background-color:  rgb(196, 103, 165);
+    background-color:  rgb(83, 61, 181);
     font-size: 25px;
     text-align: center;
     padding: 130px 10px 10px 10px;
 }
-
+    
 .container_name {
-    color: rgb(0, 8, 255);
+    color: rgb(0, 42, 255);
     text-align: center;
     font-size: 25px;
     font-weight: 700;
